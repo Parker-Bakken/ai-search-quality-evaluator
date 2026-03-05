@@ -14,6 +14,13 @@ This project demonstrates a lightweight framework for scoring the similarity bet
 - Text similarity evaluation
 - Human-in-the-loop evaluation simulation
 
+## Dataset
+
+The dataset includes example query/result pairs and evaluation guidelines used to simulate search quality rating tasks.
+
+See:
+dataset/evaluation_guidelines.md
+
 ## Future Work
 
 - Add semantic similarity using embeddings
