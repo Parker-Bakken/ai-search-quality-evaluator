@@ -21,6 +21,14 @@ The dataset includes example query/result pairs and evaluation guidelines used t
 See:
 dataset/evaluation_guidelines.md
 
+## NLP Scoring
+
+This project includes a simple NLP relevance scoring approach using:
+- TF-IDF vectorization
+- Cosine similarity
+
+This approximates how search relevance can be evaluated quantitatively.
+
 ## Future Work
 
 - Add semantic similarity using embeddings
