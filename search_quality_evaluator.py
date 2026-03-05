@@ -1,14 +1,19 @@
+import csv
 from difflib import SequenceMatcher
 
 def similarity(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
-query = "best productivity apps for students"
+with open("sample_queries.csv", newline='') as file:
+    reader = csv.DictReader(file)
 
-search_result = "Top productivity apps every college student should use."
+    for row in reader:
+        query = row["query"]
+        result = row["result"]
 
-score = similarity(query, search_result)
+        score = similarity(query, result)
 
-print("Query:", query)
-print("Result:", search_result)
-print("Relevance score:", round(score, 2))
+        print("Query:", query)
+        print("Result:", result)
+        print("Relevance score:", round(score,2))
+        print("-"*40)
