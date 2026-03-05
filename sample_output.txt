@@ -14,3 +14,24 @@ NLP relevance score (TF-IDF cosine): 0.81
 --------------------------------------------------
 
 python search_quality_evaluator.py > sample_output.txt
+
+Query: best budgeting apps
+Result: Top budgeting apps for personal finance
+NLP relevance score (TF-IDF cosine): 0.319
+--------------------------------------------------
+Query: learn python fast
+Result: Best Python courses for beginners
+NLP relevance score (TF-IDF cosine): 0.151
+--------------------------------------------------
+Query: ai productivity tools
+Result: AI tools that boost productivity
+NLP relevance score (TF-IDF cosine): 0.657
+--------------------------------------------------
+Query: work from home jobs
+Result: Best remote jobs you can do from home
+NLP relevance score (TF-IDF cosine): 0.375
+--------------------------------------------------
+Query: healthy breakfast ideas
+Result: Simple healthy breakfast recipes
+NLP relevance score (TF-IDF cosine): 0.411
+--------------------------------------------------
