@@ -1,2 +1,21 @@
-# ai-search-quality-evaluator
-A framework for evaluating search engine result quality using human relevance scoring and NLP similarity metrics.
+# AI Search Quality Evaluator
+
+This project explores how human relevance scoring and simple NLP similarity metrics can be used to evaluate search engine results.
+
+## Purpose
+
+Search engines and AI systems rely on human evaluators to determine the relevance and usefulness of results.
+
+This project demonstrates a lightweight framework for scoring the similarity between search queries and returned results.
+
+## Features
+
+- Query/result relevance scoring
+- Text similarity evaluation
+- Human-in-the-loop evaluation simulation
+
+## Future Work
+
+- Add semantic similarity using embeddings
+- Expand dataset of queries
+- Build evaluation dashboards
