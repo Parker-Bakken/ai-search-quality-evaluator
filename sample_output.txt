@@ -1,0 +1,14 @@
+Query: ai productivity tools
+Result: AI tools that boost productivity
+NLP relevance score (TF-IDF cosine): 0.73
+--------------------------------------------------
+
+Query: learn python fast
+Result: Best Python courses for beginners
+NLP relevance score (TF-IDF cosine): 0.65
+--------------------------------------------------
+
+Query: best budgeting apps
+Result: Top budgeting apps for personal finance
+NLP relevance score (TF-IDF cosine): 0.81
+--------------------------------------------------
