@@ -12,3 +12,5 @@ Query: best budgeting apps
 Result: Top budgeting apps for personal finance
 NLP relevance score (TF-IDF cosine): 0.81
 --------------------------------------------------
+
+python search_quality_evaluator.py > sample_output.txt
