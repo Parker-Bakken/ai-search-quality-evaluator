@@ -4,7 +4,7 @@ from difflib import SequenceMatcher
 def similarity(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
-with open("sample_queries.csv", newline='') as file:
+with open("dataset/sample_queries.csv", newline='') as file:
     reader = csv.DictReader(file)
 
     for row in reader:
